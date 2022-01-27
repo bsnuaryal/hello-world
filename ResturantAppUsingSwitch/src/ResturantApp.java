@@ -9,9 +9,8 @@ public class ResturantApp {
 	}
 	
 	public static void dispMainMenu(){
-		ResturantApp resObj = new ResturantApp();
-		int totalBill = BriyaniSubMenu.briyaniTotal + DrinksSubMenu.coldDrinksTotal+ DrinksSubMenu.hotDrinksTotal;
-		boolean flag = true;
+		int totalBill = BriyaniSubMenu.briyaniTotal + DrinksSubMenu.coldDrinksTotal+ DrinksSubMenu.hotDrinksTotal; //calling methods using className.methodNames
+		boolean flag = true;  //to close while loop 
 		while(flag){
 			
 		System.out.println("***************************");

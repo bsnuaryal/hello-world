@@ -5,7 +5,7 @@ public class BriyaniSubMenu {
 	BriyaniSubMenu obj = new BriyaniSubMenu();
 	static int plates;
 	static int briyaniBill;
-	static int briyaniTotal;
+	static int briyaniTotal;   
 	
    public static void dispBriyaniMenu(){
 		
