@@ -17,6 +17,7 @@ public class StudentsDaoImpl {
 		studentArray = new StudentInfo[numberOfStudents]; //error-The left-hand side of an assignment must be a variable
 		
 		for(int i =0; i<numberOfStudents; i++){
+			System.out.println("\nEnter details for Student "+(i+1));
 			System.out.println("Student No.: ");
 			int sno = sc.nextInt() ;
 			System.out.println("Student Name: ");

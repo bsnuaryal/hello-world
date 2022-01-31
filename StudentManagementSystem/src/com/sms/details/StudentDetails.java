@@ -41,7 +41,7 @@ public class StudentDetails {
 				//for-each loop to access vales stored in viewStudents array
 				if(viewStudents!=null){
 				for(StudentInfo stu : viewStudents){
-					System.out.println(stu.getSno() + "\t" + stu.getSname() + "\t" + stu.getEmail() + "\t" + stu.getMobile() + "\t" + stu.getSadd());
+					System.out.println("\t" +stu.getSno() + "\t" + stu.getSname() + "\t" + stu.getEmail() + "\t" + stu.getMobile() + "\t" + stu.getSadd());
 				}
 				}
 				else{
