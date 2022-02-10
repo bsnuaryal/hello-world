@@ -29,6 +29,7 @@ public class EmployeeDaoImpl implements EmpDAO {
 		String email = sc.next();
 		System.out.println("Enter Employee Contact No.:");
 		long number = sc.nextLong();	
+		
 		EmployeeInfo employeeObj = new EmployeeInfo(eno,ename,eadd,email,number);
 		employees.add(employeeObj);
 		System.out.println("Employee Added Successfully.");
@@ -66,6 +67,7 @@ public class EmployeeDaoImpl implements EmpDAO {
 				if(eid == emp.getId()){
 					employees.remove(emp);
 					count ++;
+					break;
 				}
 			}
 		}
